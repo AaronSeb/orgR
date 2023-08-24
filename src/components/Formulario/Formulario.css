@@ -1,0 +1,21 @@
+.formulario{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 50px;
+    flex-wrap: wrap;    /* si en una sola línea no cabe lo manda para abajo */
+    gap: 50px;
+}
+
+.formulario form {
+    background-color: #F7F7F7;
+    padding: 8px 100px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 25%);
+    flex:1;/* quitamos el maxwidt y añadimos esto para espacio de 50% */
+}
+
+.formulario h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #212121;
+}
